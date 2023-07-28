@@ -83,7 +83,7 @@ public class Lab2P2_EvaSalgado {
                                     System.out.println("Ingrese la cantidad de estrellas michelin que ha ganado: ");
                                     CantEstrella = leer.nextInt();
                                     System.out.println("Ingrese el sueldo del chef: ");
-                                    sueldochef = leer.nextInt();
+                                    sueldochef = leer.nextDouble();
 
                                     listachefs.add(nuevochef);
 
@@ -120,7 +120,7 @@ public class Lab2P2_EvaSalgado {
                                             System.out.println("Ingrese la cantidad de estrellas michelin que ha ganado: ");
                                             CantEstrella = leer.nextInt();
                                             System.out.println("Ingrese el sueldo del chef: ");
-                                            sueldochef = leer.nextInt();
+                                            sueldochef = leer.nextDouble();
                                             listachefs.get(i).setNombre(nombre);
                                             listachefs.get(i).setEdad(i);
                                             listachefs.get(i).setTurno(turnochef);
@@ -201,7 +201,7 @@ public class Lab2P2_EvaSalgado {
                                         System.out.println("valor ingresado no valido");
                                     }
                                     System.out.println("Ingrese el sueldo del mesero: ");
-                                    sueldomesero = leer.nextInt();
+                                    sueldomesero = leer.nextDouble();
                                     System.out.println("Ingrese la cantidad de propina que ha ganado: ");
                                     propina = leer.nextDouble();
 
@@ -239,7 +239,7 @@ public class Lab2P2_EvaSalgado {
                                                 System.out.println("valor ingresado no valido");
                                             }
                                             System.out.println("Ingrese el sueldo del mesero: ");
-                                            sueldomesero = leer.nextInt();
+                                            sueldomesero = leer.nextDouble();
                                             System.out.println("Ingrese la propina del mesero: ");
                                             propina = leer.nextDouble();
 
@@ -324,7 +324,7 @@ public class Lab2P2_EvaSalgado {
                                         System.out.println("valor ingresado no valido");
                                     }
                                     System.out.println("Ingrese el sueldo del bartender: ");
-                                    sueldobart = leer.nextInt();
+                                    sueldobart = leer.nextDouble();
                                     System.out.println("Ingrese la cantidad de licores que sirve: ");
                                     CantLicores = leer.nextInt();
 
@@ -362,7 +362,7 @@ public class Lab2P2_EvaSalgado {
                                                 System.out.println("valor ingresado no valido");
                                             }
                                             System.out.println("Ingrese el sueldo del bartender: ");
-                                            sueldobart = leer.nextInt();
+                                            sueldobart = leer.nextDouble();
                                             System.out.println("Ingrese la cantidad de licores que sirve: ");
                                             CantLicores = leer.nextInt();
 
